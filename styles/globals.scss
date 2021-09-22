@@ -1,0 +1,22 @@
+// Global Styles
+
+// Threespot Sass library
+@import '~frontline-sass/dist/frontline';
+
+@import 'reset';
+@import 'colors';
+
+// Global Vars
+
+$body-copy-font: 'Poppins', sans-serif;
+$body-copy-min-size: 18px;
+$body-copy-max-size: 22px;
+$body-copy-line-height: 1.63;
+$c-default: $white;
+
+html {
+  background-color: $blue-dark; // [1]
+  color: $c-default;
+  font-family: $body-copy-font;
+  scroll-behavior: smooth; // [2]
+}
