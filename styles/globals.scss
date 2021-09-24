@@ -1,16 +1,19 @@
 // Global Styles
 
 // Threespot Sass library
-@import '~frontline-sass/dist/frontline';
+// @import '~frontline-sass/dist/frontline';
+@import 'frontline';
 
 @import 'reset';
 @import 'colors';
+@import 'helpers';
+@import 'homepage';
 
 // Global Vars
 
 $body-copy-font: 'Poppins', sans-serif;
-$body-copy-min-size: 18px;
-$body-copy-max-size: 22px;
+$body-copy-min-size: 20px;
+$body-copy-max-size: 24px;
 $body-copy-line-height: 1.63;
 $c-default: $white;
 
@@ -19,4 +22,13 @@ html {
   color: $c-default;
   font-family: $body-copy-font;
   scroll-behavior: smooth; // [2]
+}
+
+a {
+  color: $blue-light;
+  text-decoration: none;
+}
+
+p {
+  font-size: $body-copy-min-size;
 }

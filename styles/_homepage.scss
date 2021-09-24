@@ -1,0 +1,21 @@
+.mainWrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+}
+
+.headshot {
+  background-image: url('../public/images/henry_01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  overflow-y: scroll;
+  padding: fs-rem(0 40px);
+
+  &-heading {
+    font-size: fs-rem(70px);
+    font-weight: 600;
+  }
+}
