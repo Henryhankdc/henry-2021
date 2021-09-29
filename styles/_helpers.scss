@@ -16,3 +16,19 @@
     margin-right: $val !important;
   }
 }
+
+// Color Helpers
+.c {
+  &-blueDark {
+    color: $blue-dark;
+  }
+  &-blueLight {
+    color: $blue-light;
+  }
+  &-gray {
+    color: $gray;
+  }
+  &-white {
+    color: $white;
+  }
+}
