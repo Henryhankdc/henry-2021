@@ -19,22 +19,22 @@ export default function Home() {
           </div>
           <div className="content">
             <h1 className="content-headingOne mt-3 c-blueLight">Henry Mesias</h1>
-            <p className="content-story">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur consectetur placeat modi mollitia blanditiis, rerum ea earum sunt consequatur? Quibusdam natus delectus accusantium, perspiciatis consectetur doloremque odio! Laboriosam, minima eat? </p>
-            <p className="content-story mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur consectetur placeat modi mollitia blanditiis, rerum ea earum sunt consequatur? Quibusdam natus delectus accusantium, perspiciatis consectetur doloremque odio! Laboriosam, minima eat? </p>
+            <p className="content-story">I started building on the web to create a webpages for my friends bands and shows in the local DIY music scene. I took a long winding road of carreer paths before I came back to web development. Web development has provided me the opportunity to combine my DYI attitude with exeprience in other fields such as non-profit work and entrepreneurship to bring a new level of creativity and purpose to any project I work on.</p>
+            <p className="content-story mt-2">I am constantly challenging myself and learning new skills. I believe keeping a positive outlook on my work as well as making sure my work is accessible to all users. Collaboration is key to success and I strive to keep my decison and technical desicions to be as inclusie as possible.</p>
 
             <div className="content-projects mt-3 mb-3">
               <h2 className="content-headingTwo c-blueLight">projects</h2>
               <ul className="content-list mt-2">
                 <li className="content-item mb-2">
                   <div className="content-item-wrapper">
-                    <p className="content-item-title"><a href="#FIXME" className="content-item-link">Example Project Link</a></p>
-                    <p className="content-item-description c-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui fuga fugit laborum cum debitis. Expedita ipsum in et praesentium, quas at exercitationem quod cupiditate aperiam ipsa maiores eum, pariatur nostrum? </p>
+                    <p className="content-item-title"><a href="https://www.panfoundation.org/" className="content-item-link">Pan Foundation</a></p>
+                    <p className="content-item-description c-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui fuga fugit laborum cum debitis. Expedita ipsum in et praesentium, quas at exercitationem quod cupiditate aperiam ipsa maiores eum, pariatur nostrum? </p>
                   </div>
                 </li>
                 <li className="content-item mb-2">
                   <div className="content-item-wrapper">
                     <p className="content-item-title"><a href="#FIXME" className="content-item-link">Example Project Link</a></p>
-                    <p className="content-item-description c-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui fuga fugit laborum cum debitis. Expedita ipsum in et praesentium, quas at exercitationem quod cupiditate aperiam ipsa maiores eum, pariatur nostrum? </p>
+                    <p className="content-item-description c-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui fuga fugit laborum cum debitis. Expedita ipsum in et praesentium, quas at exercitationem quod cupiditate aperiam ipsa maiores eum, pariatur nostrum? </p>
                   </div>
                 </li>
               </ul>
@@ -43,23 +43,19 @@ export default function Home() {
 
             <div className="content-experience mt-3 mb-3">
               <h2 className="content-headingTwo c-blueLight">Experience</h2>
+              <ul className="content-list">
+                <li className="content-item">Software Engineer @ <a href="https://www.threespot.com/">Threespot</a> </li>
+                <li className="content-item">Front End Developer @ <a href="https://jakegroup.com/">Jake Group</a> </li>
+                <li className="content-item">Founder @ <a href="http://www.senditcourier.ca/">Send It Courier</a> </li>
+              </ul>
             </div>
 
             <div className="content-tools mt-3 mb-3">
               <h2 className="content-headingTwo c-blueLight">Tools</h2>
+              <p>React, Laravel, MiddleMan, Nunjucks, JavaScript,Node.js, PHP, HTML, CSS, SCSS, SQL, Shopify, WordPress, NextJS, Gatsby, Jekyll, Photoshop, Sketch, Figma, Asana, Trello, Wrike, GitHub, GitLab, BitBucket</p>
             </div>
 
-            <footer className={styles.footer}>
-              <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Powered by{' '}
-                <span className={styles.logo}>
-                  <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-                </span>
-              </a>
+            <footer className={styles.footer}>&copy;{(new Date().getFullYear())} - henryhank
             </footer>
           </div>
         </div>
