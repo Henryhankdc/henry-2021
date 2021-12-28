@@ -27,9 +27,31 @@
     text-shadow: 2px 2px 2px rgba(132, 158, 175, 0.25);
     text-transform: uppercase;
   }
+  &-story {
+    font-weight: 600;
+  }
+  &-toolsList {
+    display: flex;
+  }
+  &-toolsItem {
+    border-right: 1px solid $brown;
+    color: $gray;
+    margin-right: fs-rem(10px);
+    padding-right: fs-rem(10px);
+    &:last-child {
+      border-right: none;
+    }
+  }
+  &-tools {
+    &-description {
+      font-size: fs-rem(18px);
+    }
+  }
+
   &-item {
     &-description {
-      font-size: fs-rem(20px);
+      font-size: fs-rem(18px);
+      font-weight: 400;
     }
   }
 }
