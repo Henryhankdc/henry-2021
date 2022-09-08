@@ -31,4 +31,7 @@ a {
 
 p {
   font-size: $body-copy-min-size;
+  &.smaller{
+    font-size: $body-copy-min-size - 2px;
+  }
 }

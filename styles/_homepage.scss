@@ -1,14 +1,23 @@
 .mainWrapper {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  
   height: 100vh;
+  @include fs-min-width(850px) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
 }
 
 .headshot {
   background-image: url('../public/images/henry_01.jpg');
-  background-position: 40%;
+  background-position: 50% 7%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 400px;
+  height: 500px;
+  @include fs-min-width(850px) {
+    background-position: 40%;
+    background-size: cover;
+    height: auto;
+  }
 }
 
 .content {

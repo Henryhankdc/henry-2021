@@ -22,9 +22,9 @@ export default function Home() {
             <h1 className="content-headingOne mt-3 c-blueLight">Henry Mesias</h1>
             <p className="content-story">I started building on the web to create pages for my friends bands and shows in the local DIY music scene. After working for a <Link href="https://www.waba.org"><a> bicycle advocacy non-profit in Washington, D.C.</a></Link> and <Link href="https://www.senditcourier.ca"><a>founding a bike messenger co-op in Toronto</a></Link>, I came back to writing code.</p>
              
-            <p className="content-story mt-2">Web development has provided me the opportunity to combine my DIY attitude with exeprience in other fields such as non-profit work and entrepreneurship to bring a new level of creativity and purpose to any project I work on.</p>
+            <p className="content-story mt-2 smaller">Web development has provided me the opportunity to combine my DIY attitude with exeprience in other fields such as non-profit work and entrepreneurship to bring a new level of creativity and purpose to any project I work on.</p>
 
-            <p className="content-story mt-2">I'm constantly challenging myself and learning new skills. Above everything else, keeping a postive attitude and fostering good relationships with colleagues plays a primary role in how I work.</p>
+            <p className="content-story mt-2 smaller">I'm constantly challenging myself and learning new skills. Above everything else, keeping a postive attitude and fostering good relationships with colleagues plays a primary role in how I work.</p>
 
             <div className="content-projects mt-3 mb-3">
               <h2 className="content-headingTwo c-blueLight">Projects</h2>
