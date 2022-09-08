@@ -24,7 +24,7 @@ export default function Home() {
              
             <p className="content-story mt-2 smaller">Web development has provided me the opportunity to combine my DIY attitude with exeprience in other fields such as non-profit work and entrepreneurship to bring a new level of creativity and purpose to any project I work on.</p>
 
-            <p className="content-story mt-2 smaller">I'm constantly challenging myself and learning new skills. Above everything else, keeping a postive attitude and fostering good relationships with colleagues plays a primary role in how I work.</p>
+            <p className="content-story mt-2 smaller">I&apos;m constantly challenging myself and learning new skills. Above everything else, keeping a postive attitude and fostering good relationships with colleagues plays a primary role in how I work.</p>
 
             <div className="content-projects mt-3 mb-3">
               <h2 className="content-headingTwo c-blueLight">Projects</h2>
